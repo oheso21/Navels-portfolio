@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navel's portfolio｜Web制作</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <header id="#header" class="header">
+    <div class="header-inner">
+      <h1 class="header-logo">Navel's portfolio</h1>
+      <nav class="header-nav">
+        <div class="hamburger-panel">
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item current"><a href="#top">top</a></li>
+            <li class="header-nav-list-item"><a href="#about">about</a></li>
+            <li class="header-nav-list-item"><a href="#services">services</a></li>
+            <li class="header-nav-list-item"><a href="#works">works</a></li>
+            <li class="header-nav-list-item"><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+        <span class="slide-line"></span>
+      </nav>
+      <div class="hamburger-btn">
+        <span class="hamburger-btn-line-top"></span>
+        <span class="hamburger-btn-line-middle"></span>
+        <span class="hamburger-btn-line-bottom"></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-visual slide-pos">
+      <ul class="slider">
+        <li class="slider-item slider-item01"></li>
+        <li class="slider-item slider-item02"></li>
+        <li class="slider-item slider-item03"></li>
+      </ul>
+    </div>
+    <section id="about" class="slide-pos">
+      <div class="content-wrapper">
+        <h2 class="section-title">About me</h2>
+        <div class="about-content">
+          <div class="about-image fadein-right">
+            <img src="img/heso.png" alt="おへそ本人">
+          </div>
+          <p class="content-text fadein-left">
+            はじめまして。この度はポートフォリオサイトをご覧いただき、ありがとうございます。Webサイトを制作するフリーランスとして活動しており、お客様の売上や集客に最大限の効果が出るよう心がけております。ご依頼には迅速かつ、真摯に対応させていただきます。
+          </p>
+        </div>
+      </div>
+    </section><!-- /.about -->
+
+    <section id="services" class="slide-pos">
+      <div class="content-wrapper">
+        <h2 class="section-title">Services</h2>
+        <div class="services-contents">
+          <div class="services-image fadein-left">
+            <img src="img/icon_160110_256.png" alt="">
+          </div>
+          <div class="services-text fadein-up">
+            <h3 class="services-header">コーディング</h3>
+            <p class="services-message">お客様がAdobe XDやPhotoshop等によって作成されたWebサイトデザイン案を代理でコーディングいたします。HTML&CSSの静的サイトや、JavaScript(jQuery)を使用した動きのあるWebサイト、WordPressを使用したWebサイトにも対応いたします。</p>
+          </div>
+        </div>
+        <div class="services-contents">
+          <div class="services-image fadein-left">
+            <img src="img/icon_114000_256.png" alt="">
+          </div>
+          <div class="services-text fadein-up">
+            <h3 class="services-header">Webサイト制作・修正・更新</h3>
+            <p class="services-message">お客様とヒアリングを行い、コーポレートサイトやLP、ブログなど、目的と用途に沿った適切なWebサイトを制作いたします。また、既存のWebサイトの修正や更新も対応いたします。</p>
+          </div>
+        </div>
+        <h3 class="services-header">Skills</h3>
+        <ul class="services-icon-list fadein">
+          <li class="services_icon">
+            <img src="img/logo_html5.png" alt="HTML5">
+          </li>
+          <li class="services_icon">
+            <img src="img/logo_css3.png" alt="CSS3">
+          </li>  <li class="services_icon">
+            <img src="img/logo_javascript.png" alt="JavaScript">
+          </li>
+          <li class="services_icon">
+            <img src="img/logo_jquery.png" alt="jQuery">
+          </li>
+          <li class="services_icon">
+            <img src="img/logo_wordpress.png" alt="WordPress">
+          </li>
+        </ul>
+      </div>
+    </section><!-- /.services -->
+
+    <section id="works" class="slide-pos">
+      <div class="content-wrapper">
+        <h2 class="section-title">Works</h2>
+        <div class="works-contents">
+          <div class="works-content fadein-up">
+            <div class="works-image">
+              <img src="img/works1.jpg" alt="">
+            </div>
+            <figure>Navel's portfolio</figure>
+            <p class="works-text">このポートフォリオサイトです。シンプルで飾り気がない余白のある空間で、コンテンツに意識が向くように制作しました。<br>jQueryも出来る限り入れています。<br>製作期間：2週間</p>
+          </div>
+          <div class="works-content fadein-up">
+            <div class="works-image">
+              <img src="img/works2.jpg" alt="">
+            </div>
+            <figure>Shiro</figure>
+            <p class="works-text"">無料で公開されているデザインカンプ、お花屋さんLPの『Shiro』です。<br>デザインはあかねさん(<a class="modal-area-textlink" href="https://twitter.com/omsss22">@omsss22</a>)。<br>製作期間：2日</p>
+          </div>
+        </div>
+      </div>
+      <!-- modal window -->
+      <div class="modal-area">
+        <div class="modal-bg"></div>
+        <div class="modal-area-inner">
+          <div class="modal-area-image">
+            <img src="img/640x480.png" alt="サンプルサイト1">
+          </div>
+          <figure class="modal-area-figure">figure</figure>
+          <p class="modal-area-text">ここにclass="works-comment"の<br>テキストをJSでいれる。</p>
+          <span class="modal-close">×</span>
+        </div>
+      </div><!-- /.modal -->
+    </section><!-- /.works -->
+
+    <section id="contact" class="slide-pos">
+      <div class="content-wrapper">
+        <h2 class="section-title">Contact</h2>
+        <p class="contact-text">
+          ホームページ / Webサイト / LP 制作依頼のお問い合わせや、このポートフォリオに対するご意見・ご感想、その他問い合わせ等、何でも承ります。お問い合わせは下記のフォームをご利用ください。
+        </p>
+        <form action="" class="form-wrapper">
+          <ul class="form-list">
+            <li class="form-item">
+              <label for="name" class="form-label">お名前</label>
+              <input type="text" id="name" name="your-name">
+            </li>
+            <li class="form-item">
+              <label for="email" class="form-label">メールアドレス</label>
+              <input type="text" id="email" name="your-email">
+            </li>
+            <li class="form-item">
+              <label for="message" class="form-label">お問い合わせ内容</label>
+              <textarea name="your-message" id="message"></textarea>
+            </li>
+          </ul>
+          <div class="submit">
+            <a href="#" class="link-btn">送信</a>
+          </div>
+        </form>
+      </div>
+    </section><!-- /.contact -->
+  </main>
+
+  <footer class="footer">
+    <small>&copy;2021 Navel's portfolio</small>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
